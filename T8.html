@@ -1,0 +1,131 @@
+<html>
+<head>
+	<title>PERULANGAN SECARA ACAK JS</title>
+</head>
+<body>
+	<center><img src="RA.jpg" width="200" height="250"></center>
+	<center><em><h2>SOAL-SOAL</h2></em></center>
+ 
+	<script type="text/javascript">
+
+
+		var lagi=true;
+		alert("Cara Menjawab Dengan Menulis Angkanya Jangan Menulis pilihannya Secara Langsung TERMIAH KASIH")
+		while (lagi){
+		var gambar = new Array();
+		gambar [1] = "<img src='RA.jpg' width='200'/>"
+		gambar [2] = "<img src ='MZ.jpg' width='200'/>"
+		gambar [3] = "<img src ='BG.jpg' width ='200'>"
+		gambar [4] = "<img src ='HJ.jpg 'width ='200'/>"
+		gambar [5] = "<img src ='WM.jpg 'width='200'/>"
+		gambar [6] = "<img src ='WK.jpg' width='200'/>"
+		gambar [7] = "<img src ='JKW.jpg' width='200'/>"
+		gambar [8] = "<img src ='ST.jpg' width='200'/>"
+		gambar [9] = "<img src ='SK.jpg' width='200'/>"
+		gambar [10] = "<img src ='MT.jpg' width='200'/>"
+		gambar [11] = "<img src ='MC.jpg' width='200'/>"
+		gambar [12] = "<img src ='JKT.jpg' width='200'/>"
+		gambar [13] = "<img src ='BL.jpg' width='200'>"
+		
+
+
+		for (var i = 1; i <= 5; i++){
+			var count = 0;
+			var rand = Math.floor(Math.random() * 5 + 1);
+			if(rand == 1){
+			var a = prompt ('Siapakah pencipta facebook 1.Reskyagus 2.MarkZuckerberg  3.BillGates')
+			switch(a){
+				case "1": 
+				document.write("<br><br> <h2>Terkait Pencipta Facebook<h2> <br>jawaban anda  ="+gambar[1])
+				document.write("jawaban Yang betul ="+gambar[2])
+				break;
+				case "2":
+				document.write("<br><br> <h2>Terkait Pencipta Facebook<h2> <br> jawaban anda ="+gambar[2])
+				document.write("jawaban Yang betul ="+gambar[2])
+				break; 
+				case "3":
+				document.write("<br><br> <h2>Terkait Pencipta Facebook<h2> <br> jawaban anda ="+gambar[3])
+				document.write("jawaban Yang betul ="+gambar[2])
+				break;
+			}
+			}
+			if(rand == 2){
+			var b = prompt ('Warna apakah yg bisa menghentikan laju kendaraan 1.Hijau 2.Merah  3.Kuning')
+			switch(b){
+				case "1": 
+				document.write("<br><br> <h2>Terkait Gambar Yang Memberhentikan Laju Kendaraan <h2><br> jawaban anda ="+gambar[4])
+				document.write("jawaban Yang betul ="+gambar[5])
+				break;
+				case "2":
+				document.write("<br><br> <h2>Terkait Gambar Yang Memberhentikan Laju Kendaraan<h2> <br> jawaban anda ="+gambar[5])
+				document.write("jawaban Yang betul ="+gambar[5])
+				break;
+				case "3":
+				document.write("<br><br> <h2>Terkait Gambar Yang Memberhentikan Laju Kendaraan<h2> <br> jawaban anda ="+gambar[6])
+				document.write("jawaban Yang betul ="+gambar[5])
+				break;
+			}
+			}if(rand == 3){
+			var c = prompt ('Siapakah Pesiden Kedua 1.Jokowi 2.Soeharto  3.Soekarno')
+			switch(c){
+				case "1": 
+				document.write("<br><br> <h2>Terkait Siapa Presiden Kedua <h2><br> jawaban anda ="+gambar[7])
+				document.write("jawaban Yang betul ="+gambar[8])
+				break;
+				case "2":
+				document.write("<br><br> <h2>Terkait Siapa Presiden Kedua <h2><br> jawaban anda ="+gambar[8])
+				document.write("jawaban Yang betul ="+gambar[8])
+				break;
+				case "3":
+				document.write("<br><br> <h2>Terkait Siapa Presiden Kedua <h2><br> jawaban anda ="+gambar[9])
+				document.write("jawaban Yang betul ="+gambar[8])
+				break;
+			}
+			}if(rand == 4){
+			var d = prompt ('Siapakah Dijuluki Bapak Proklamasi 1.Soekarno 2.Megawati  3.Soeharto')
+			switch(d){
+				case "1": 
+				document.write("<br><br> <h2>Terkait Siapa Dijuluki Bapak Proklamasi<h2> <br> jawaban anda ="+gambar[9])
+				document.write("jawaban Yang betul ="+gambar[9])
+				break;
+				case "2":
+				document.write("<br><br> <h2>Terkait Siapa Dijuluki Bapak Proklamasi<h2> <br> jawaban anda ="+gambar[10])
+				document.write("jawaban Yang betul ="+gambar[9])
+				break;
+				case "3":
+				document.write("<br><br> <h2>Terkait Siapa Dijuluki Bapak Proklamasi<h2> <br> jawaban anda ="+gambar[8])
+				document.write("jawaban Yang betul ="+gambar[9])
+				break;
+			}
+			}if(rand == 5){
+			var e = prompt ('Apa Nama Ibu Kota Indonesia 1.Bali 2.Makassar  3.Jakarta')
+			switch(e){
+				case "1": 
+				document.write("<br><br> <h2>Terkait Siapa Dijuluki Bapak Proklamasi<h2> <br>  jawaban anda ="+gambar[13])
+				document.write("jawaban Yang betul ="+gambar[12])
+				break;
+				case "2":
+				document.write("<br><br> <h2>Terkait Siapa Dijuluki Bapak Proklamasi<h2> <br> jawaban anda ="+gambar[11])
+				document.write("jawaban Yang betul ="+gambar[12])
+				break;
+				case "3":
+				document.write("<br><br> <h2> Terkait Siapa Dijuluki Bapak Proklamasi<h2> <br>  jawaban anda ="+gambar[12])
+				document.write("jawaban Yang betul ="+gambar[12])
+				break;
+			}
+			 	
+			}
+			for (var r = 0; r < rand; r++){
+				count++;
+				}
+			
+
+		}	
+		lagi = confirm('Cetak Lagi ? ');	
+		
+		
+	}
+	</script>
+
+  </body>   
+   </html>	
